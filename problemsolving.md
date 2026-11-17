@@ -20,11 +20,9 @@
 
 | Problem                      | Difficulty | Link                                                          |
 | ---------------------------- | ---------- | ------------------------------------------------------------- |
-| Move zeros to end of array   | Easy       | [LeetCode 283](https://leetcode.com/problems/move-zeroes/)    |
 | Find max and min in an array | Easy       | Practice on paper first                                       |
 | Reverse an array             | Easy       | [LeetCode 344](https://leetcode.com/problems/reverse-string/) |
 | Count vowels in a string     | Easy       | Practice on paper first                                       |
-| reverse-vowels-of-a-string     | Easy       | [LeetCode 345](https://leetcode.com/problems/reverse-vowels-of-a-string/)                                       |
 
 ### Real World Connection
 
@@ -61,22 +59,20 @@ Every app you use relies on arrays constantly.
 | Problem | Difficulty | Type | Link |
 | --- | --- | --- | --- |
 | Check if string is a palindrome | Easy | Inward | [LeetCode 125](https://leetcode.com/problems/valid-palindrome/) |
-| Palindrome Number | Easy | Inward | [LeetCode 9](https://leetcode.com/problems/palindrome-number/) |
+| Valid Palindrome II | Easy | Inward | [LeetCode 680](https://leetcode.com/problems/valid-palindrome-ii/) |
+| Reverse Vowels of a String | Easy | Inward | [LeetCode 345](https://leetcode.com/problems/reverse-vowels-of-a-string/) |
 | Move Zeroes | Easy | Unidirectional | [LeetCode 283](https://leetcode.com/problems/move-zeroes/) |
 | Sort Array By Parity | Easy | Unidirectional | [LeetCode 905](https://leetcode.com/problems/sort-array-by-parity/) |
-| Two Sum IV - Input is a BST | Easy | Inward | [LeetCode 653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) |
-| Merge Two Sorted Lists | Easy | Staggered | [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/) |
+| Remove Duplicates from Sorted Array | Easy | Unidirectional | [LeetCode 26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
 | Find all pairs that sum to X | Easy | Inward | Practice on paper first |
-| Remove duplicate characters | Easy | Unidirectional | [LeetCode 316](https://leetcode.com/problems/remove-duplicate-letters/) |
 | Check if two strings are permutations | Easy | Staggered | [LeetCode 242](https://leetcode.com/problems/valid-anagram/) |
 | Intersection of two arrays | Easy | Staggered | [LeetCode 349](https://leetcode.com/problems/intersection-of-two-arrays/) |
+| Two Sum II - Input Array Is Sorted | Medium | Inward | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |
 | K-diff Pairs in an Array | Medium | Inward | [LeetCode 532](https://leetcode.com/problems/k-diff-pairs-in-an-array/) |
 | Container With Most Water | Medium | Inward | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/) |
-| Max Consecutive Ones III | Medium | Unidirectional | [LeetCode 1004](https://leetcode.com/problems/max-consecutive-ones-iii/) |
 | Longest Word in Dictionary Through Deleting | Medium | Staggered | [LeetCode 524](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) |
 | 3Sum | Medium | Inward | [LeetCode 15](https://leetcode.com/problems/3sum/) |
-| Subarrays with K Different Integers | Hard | Unidirectional | [LeetCode 992](https://leetcode.com/problems/subarrays-with-k-different-integers/) |
-| 4Sum | Hard | Inward | [LeetCode 18](https://leetcode.com/problems/4sum/) |
+| 4Sum | Medium | Inward | [LeetCode 18](https://leetcode.com/problems/4sum/) |
 
 ### Real World Connection
 
@@ -102,11 +98,13 @@ Any time you compare the start and end of something — that is two pointers.
 
 ### Practice Problems
 
-| Problem                                        | Difficulty  | Link                                                                                        |
-| ---------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------- |
-| Maximum subarray sum (Kadane's Algorithm)      | Easy-Medium | [LeetCode 53](https://leetcode.com/problems/maximum-subarray/)                              |
-| Longest substring without repeating characters | Medium      | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
-| Smallest subarray with sum ≥ target            | Medium      | [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/)                    |
+| Problem                                        | Difficulty | Link                                                                                        |
+| ---------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------- |
+| Maximum average subarray (fixed window)        | Easy       | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/)                   |
+| Longest substring without repeating characters | Medium     | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| Smallest subarray with sum ≥ target            | Medium     | [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/)                    |
+| Max Consecutive Ones III                       | Medium     | [LeetCode 1004](https://leetcode.com/problems/max-consecutive-ones-iii/)                    |
+| Subarrays with K Different Integers            | Hard       | [LeetCode 992](https://leetcode.com/problems/subarrays-with-k-different-integers/)          |
 
 ### Real World Connection
 
@@ -170,9 +168,10 @@ Any time you compare the start and end of something — that is two pointers.
 | ------------------------------------- | ---------- | ------------------------------------------------------------------------------- |
 | Reverse a linked list                 | Easy       | [LeetCode 206](https://leetcode.com/problems/reverse-linked-list/)              |
 | Detect cycle in linked list           | Easy       | [LeetCode 141](https://leetcode.com/problems/linked-list-cycle/)                |
-| Implement stack using arrays          | Easy       | [LeetCode 155](https://leetcode.com/problems/min-stack/)                        |
-| Implement queue using linked list     | Easy       | [LeetCode 232](https://leetcode.com/problems/implement-queue-using-stacks/)     |
+| Merge two sorted lists                | Easy       | [LeetCode 21](https://leetcode.com/problems/merge-two-sorted-lists/)            |
+| Implement queue using stacks          | Easy       | [LeetCode 232](https://leetcode.com/problems/implement-queue-using-stacks/)     |
 | Find intersection of two linked lists | Easy       | [LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
+| Min stack                             | Medium     | [LeetCode 155](https://leetcode.com/problems/min-stack/)                        |
 
 ### Real World Connection
 
@@ -206,7 +205,7 @@ Any time you compare the start and end of something — that is two pointers.
 | Find first non-repeating character | Easy       | [LeetCode 387](https://leetcode.com/problems/first-unique-character-in-a-string/) |
 | Find majority element              | Easy       | [LeetCode 169](https://leetcode.com/problems/majority-element/)                   |
 | Intersection of two arrays II      | Easy       | [LeetCode 350](https://leetcode.com/problems/intersection-of-two-arrays-ii/)      |
-| Design LRU Cache                   | Hard       | [LeetCode 146](https://leetcode.com/problems/lru-cache/)                          |
+| Design LRU Cache                   | Medium     | [LeetCode 146](https://leetcode.com/problems/lru-cache/)                          |
 
 ### Real World Connection
 
@@ -238,6 +237,7 @@ Any time you compare the start and end of something — that is two pointers.
 | Problem                      | Difficulty | Link                                                                                   |
 | ---------------------------- | ---------- | -------------------------------------------------------------------------------------- |
 | Maximum depth of binary tree | Easy       | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)            |
+| Two Sum IV - Input is a BST  | Easy       | [LeetCode 653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)               |
 | Validate binary search tree  | Medium     | [LeetCode 98](https://leetcode.com/problems/validate-binary-search-tree/)              |
 | Lowest common ancestor       | Medium     | [LeetCode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |
 | Level order traversal        | Medium     | [LeetCode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/)       |
@@ -282,11 +282,12 @@ Any time you compare the start and end of something — that is two pointers.
 | ------------------------------ | ---------- | -------------------------------------------------------------------------- |
 | Fibonacci number (DP)          | Easy       | [LeetCode 509](https://leetcode.com/problems/fibonacci-number/)            |
 | Climbing stairs                | Easy       | [LeetCode 70](https://leetcode.com/problems/climbing-stairs/)              |
+| Maximum subarray (Kadane's)    | Medium     | [LeetCode 53](https://leetcode.com/problems/maximum-subarray/)             |
 | Longest common subsequence     | Medium     | [LeetCode 1143](https://leetcode.com/problems/longest-common-subsequence/) |
 | Number of islands (graph DFS)  | Medium     | [LeetCode 200](https://leetcode.com/problems/number-of-islands/)           |
-| 0/1 Knapsack                   | Medium     | GeeksForGeeks                                                              |
+| 0/1 Knapsack (Partition Equal Subset Sum) | Medium | [LeetCode 416](https://leetcode.com/problems/partition-equal-subset-sum/) |
 | Detect cycle in directed graph | Medium     | [LeetCode 207](https://leetcode.com/problems/course-schedule/)             |
-| Shortest path (Dijkstra)       | Hard       | [LeetCode 743](https://leetcode.com/problems/network-delay-time/)          |
+| Shortest path (Dijkstra)       | Medium     | [LeetCode 743](https://leetcode.com/problems/network-delay-time/)          |
 
 ### Real World Connection
 
@@ -295,6 +296,10 @@ Any time you compare the start and end of something — that is two pointers.
 - Netflix recommendations = Graph algorithms
 - Autocorrect = Dynamic Programming
 - DNA sequence matching = LCS algorithm
+
+### Key Concept to Understand Before Moving On
+
+> You should be able to explain when BFS beats DFS on a graph, and turn a recursive solution into DP by spotting repeated subproblems.
 
 ---
 
